@@ -1,4 +1,6 @@
 import SignOutButton from '../components/SignOutButton';
+import PhotoUploader from '../components/PhotoUploader';
+import PhotoGrid from '../components/PhotoGrid';
 
 export default function Photos() {
   return (
@@ -7,9 +9,9 @@ export default function Photos() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col items-center mb-6">
           <h1 className="text-4xl font-bold mb-4">Photos</h1>
-          {/* PhotoUploaded */}
+          <PhotoUploader />
         </div>
-        {/* PhotoGrid */}
+        <PhotoGrid />
       </div>
       <div className="absolute top-4 right-4">
         <SignOutButton />{' '}
