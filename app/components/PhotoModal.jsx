@@ -14,7 +14,7 @@ export default function PhotoModal({ src, alt, onClose }) {
         >
           Close
         </button>
-        <div className="relative w-[80vw] h-[80vw]">
+        <div className="relative w-[80vw] h-[80vh]">
           <Image
             src={src}
             alt={alt}
